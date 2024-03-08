@@ -9,14 +9,14 @@ let arr = [
 function PrintDeveloperbyMap() {
   let r=arr.map(function(v,i,a){
     if(v["profession"]==="developer"){
-    console.log(v["name"]);}
+    console.log(v);}
   });
 }
 
 function PrintDeveloperbyForEach() {
   let r=arr.forEach(function(v,i,a){
     if(v["profession"]==="developer"){
-    console.log(v["name"]);}
+    console.log(v);}
   });
 }
 
@@ -44,6 +44,6 @@ function concatenateArray() {
   arr.push(x);
 }
  */
-let arr=arr.concat(arr1)
-console.log(arr)
+let newarr=arr.concat(arr1)
+console.log(newarr)
 }
